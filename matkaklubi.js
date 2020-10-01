@@ -94,6 +94,7 @@ if (matkaKaardid) {
 }
 
 let matk = 0;
+//loeme lehe aadressilt get parameetri matk
 let minuURL = new URL(document.URL);
 matk = minuURL.searchParams.get('matk');
 naitaMatkaAndmeidRegistreerimiseks(matk); // näitame registreerumise lehel matka kirjeldust ja pilti
