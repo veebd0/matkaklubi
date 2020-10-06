@@ -17,7 +17,7 @@
 			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap"
 			rel="stylesheet"
 		/>
-		<title>Matkaklubi - registreerumine</title>
+		<title>Matkaklubi - registreeru</title>
 	</head>
 	<body>
 		<div class="container">
@@ -55,16 +55,16 @@
 				</div>
 			</div>
 			<hr />
-			<form>
+			<form action="/oppurid/veeb40/vormid.php" method="GET">
 				<div class="form-group">
 					<label for="registreerujaEmail">Email</label>
-					<input type="email" class="form-control" id="registreerujaEmail" aria-describedby="emailHelp" />
+					<input type="email" class="form-control" name="registreerujaEmail" id="registreerujaEmail" aria-describedby="emailHelp" />
 				</div>
 				<div class="form-group">
 					<label for="registreerujaNimi">Nmi</label>
-					<input type="text" class="form-control" id="registreerujaNimi" />
+					<input type="text" class="form-control" name="registreerujaNimi" id="registreerujaNimi" />
 				</div>
-				<button type="submit" class="btn btn-primary">Registreeru</button>
+				<input type="submit" class="btn btn-primary" value="Registreeru">
 			</form>
 		</div>
 
